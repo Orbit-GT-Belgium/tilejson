@@ -139,7 +139,7 @@ impl TileJSONBuilder {
       data: None,
       minzoom: Some(0),
       maxzoom: Some(30),
-      bounds: Some(vec![-180, -90, 180, 90]),
+      bounds: Some(vec![-180.0, -90.0, 180.0, 90.0]),
       center: None,
     }
   }
